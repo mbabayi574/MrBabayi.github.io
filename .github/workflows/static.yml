@@ -34,6 +34,11 @@ jobs:
           # This option automatically configures caching for pnpm.
           cache: "pnpm"
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
       - name: Install dependencies
         run: pnpm install
 
