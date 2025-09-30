@@ -1,0 +1,31 @@
+/* Main */
+@import url("./main.css");
+
+/* font-family */
+
+@import url("./font.css");
+
+/* Sidebar */
+
+@import url("./components/sidebar.css");
+
+/* Navbar */
+@import url("./components/navbar.css");
+
+/* About Page */
+@import url("./pages/aboutPage.css");
+
+/* Resume Page */
+@import url("./pages/resumePage.css");
+
+/* Portfolio Page */
+@import url("./pages/portfolioPage.css");
+
+/* Blog Page */
+@import url("./pages/blogPage.css");
+
+/* Contact Page */
+@import url("./pages/contactPage.css");
+
+/* Responsive */
+@import url("./responsive.css");

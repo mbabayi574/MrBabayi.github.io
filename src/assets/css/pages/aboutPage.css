@@ -1,0 +1,121 @@
+/* About Section */
+
+.about .article-title {
+  margin-bottom: 15px;
+}
+
+.about-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}
+
+.about-text ul li {
+  list-style: disc;
+  margin-right: 20px;
+}
+
+/* Service Section */
+
+.service {
+  margin-bottom: 35px;
+}
+
+.service-title {
+  margin-bottom: 20px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.service-item {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.service-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.service-icon-box {
+  margin-bottom: 10px;
+}
+
+.service-icon-box img {
+  margin: auto;
+}
+
+.service-content-box {
+  text-align: center;
+}
+
+.service-item-title {
+  margin-bottom: 7px;
+}
+
+.service-item-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+/* Clients Section */
+
+.clients {
+  margin-bottom: 15px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center; /* Center the items */
+  align-items: center; /* Center vertically */
+  gap: 20px; /* Consistent spacing */
+  margin: 0;
+  padding: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.clients-item {
+  flex: 0 0 auto; /* Don't grow or shrink */
+  width: 120px; /* Fixed width for consistency */
+  height: 80px; /* Fixed height for all items */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.clients-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(0.9);
+  transition: var(--transition-1);
+}
+
+.clients-item img:hover {
+  filter: grayscale(0);
+  transform: scale(1.07);
+}

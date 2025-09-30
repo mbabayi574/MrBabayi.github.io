@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "IranYekan";
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../webfonts/IranYekan/iranyekanweblight.eot");
+  src: url("../webfonts/IranYekan/iranyekanweblight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/IranYekan/iranyekanweblight.woff2") format("woff2"),
+    url("../webfonts/IranYekan/iranyekanweblight.woff") format("woff"),
+    url("../webfonts/IranYekan/iranyekanweblight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IranYekan";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../webfonts/IranYekan/iranyekanwebregular.eot");
+  src: url("../webfonts/IranYekan/iranyekanwebregular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/IranYekan/iranyekanwebregular.woff") format("woff"),
+    url("../webfonts/IranYekan/iranyekanwebregular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IranYekan";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../webfonts/IranYekan/iranyekanwebbold.eot");
+  src: url("../webfonts/IranYekan/iranyekanwebbold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../webfonts/IranYekan/iranyekanwebbold.woff2") format("woff2"),
+    url("../webfonts/IranYekan/iranyekanwebbold.woff") format("woff"),
+    url("../webfonts/IranYekan/iranyekanwebbold.ttf") format("truetype");
+}
+
+.english-numbers {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
