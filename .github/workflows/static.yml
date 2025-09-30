@@ -31,8 +31,6 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: "22.20"
-          # This option automatically configures caching for pnpm.
-          cache: "pnpm"
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
