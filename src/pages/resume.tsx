@@ -2,62 +2,12 @@ export const ResumePage = () => {
   return (
     <article class="resume">
       <header>
-        <h2 class="h2 article-title">Resume</h2>
+        <h2 class="h2 article-title">رزومه</h2>
       </header>
-
       <section class="timeline">
         <div class="title-wrapper">
           <div class="icon-box">
-            <ion-icon name="book-outline"></ion-icon>
-          </div>
-
-          <h3 class="h3">Education</h3>
-        </div>
-
-        <ol class="timeline-list">
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">
-              University school of the arts
-            </h4>
-
-            <span>2007 — 2008</span>
-
-            <p class="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias exceptur.
-            </p>
-          </li>
-
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-            <span>2006 — 2007</span>
-
-            <p class="timeline-text">
-              Ratione voluptatem sequi nesciunt, facere quisquams facere menda
-              ossimus, omnis voluptas assumenda est omnis..
-            </p>
-          </li>
-
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">
-              High school of art and design
-            </h4>
-
-            <span>2002 — 2004</span>
-
-            <p class="timeline-text">
-              Duis aute irure dolor in reprehenderit in voluptate, quila
-              voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
-            </p>
-          </li>
-        </ol>
-      </section>
-
-      <section class="timeline">
-        <div class="title-wrapper">
-          <div class="icon-box">
-            <ion-icon name="book-outline"></ion-icon>
+            <ion-icon name="analytics-outline"></ion-icon>
           </div>
 
           <h3 class="h3">Experience</h3>
@@ -98,52 +48,81 @@ export const ResumePage = () => {
           </li>
         </ol>
       </section>
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
 
+          <h3 class="h3">تحصیلات</h3>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">دانشگاه علم و صنعت ایران</h4>
+
+            <span>۱۴۰۲ - ۱۳۹۷</span>
+
+            <p class="timeline-text">
+              فارغ‌التحصیل در رشته مهندسی کامپیوتر با معدل ۱۵.۶۸
+              <br />
+              عنوان پایان‌نامه: سامانه جامع مدیریت اینترنت اشیای پاتریوت - استاد
+              راهنما: دکتر حسینی‌منزه
+            </p>
+          </li>
+        </ol>
+      </section>
       <section class="skill">
-        <h3 class="h3 skills-title">My skills</h3>
+        <h3 class="h3 skills-title">مهارت‌ها</h3>
 
-        <ul class="skills-list content-card">
+        <ul class="skills-list content-card" dir="ltr">
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Web design</h5>
-              <data value="80">80%</data>
+              <h5 class="h5">FrontEnd Development ( React JS )</h5>
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 80%"></div>
+              <div class="skill-progress-fill" style="width: 85%"></div>
             </div>
           </li>
 
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Graphic design</h5>
-              <data value="70">70%</data>
+              <h5 class="h5">Java & Spring EcoSystem</h5>
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 70%"></div>
+              <div class="skill-progress-fill" style="width: 65%"></div>
             </div>
           </li>
 
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Branding</h5>
-              <data value="90">90%</data>
+              <h5 class="h5">Django and FastAPI</h5>
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 90%"></div>
+              <div class="skill-progress-fill" style="width: 20%"></div>
             </div>
           </li>
 
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">WordPress</h5>
-              <data value="50">50%</data>
+              <h5 class="h5">AI Agent & RAG System Development</h5>
             </div>
 
             <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 50%"></div>
+              <div class="skill-progress-fill" style="width: 35%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Data Analysis & Machine Learning</h5>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 5%"></div>
             </div>
           </li>
         </ul>
